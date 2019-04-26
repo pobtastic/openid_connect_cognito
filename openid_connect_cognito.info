@@ -1,0 +1,7 @@
+name = OpenID Connect AWS Cognito
+description = "A CTools plugin that adds an AWS Cognito client to OpenID Connect."
+core = 7.x
+
+dependencies[] = ctools
+dependencies[] = openid_connect
+dependencies[] = xautoload (>= 7.x-5.0)

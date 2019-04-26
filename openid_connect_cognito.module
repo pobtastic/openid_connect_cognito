@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * CTools plugin for OpenID Connect AWS Cognito.
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function openid_connect_cognito_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'openid_connect') {
+    return "plugins/$plugin";
+  }
+}
+
+/**
+ * Implements hook_xautoload().
+ */
+function openid_connect_cognito_xautoload($adapter) {
+  $adapter->composerDir('vendor/composer');
+}

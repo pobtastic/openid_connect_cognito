@@ -1,0 +1,12 @@
+{
+  "name": "drupal/openid_connect_cognito",
+  "type": "drupal-module",
+  "description": "Provides an integration with Amazon Cognito for the OpenID Connect module.",
+  "homepage": "http://drupal.org/project/openid_connect_cognito",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">=5.6",
+    "aws/aws-sdk-php": "~3.32"
+  },
+  "minimum-stability": "dev"
+}
